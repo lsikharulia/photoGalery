@@ -23,7 +23,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+// if (isset($_SERVER['HTTPS']) &&
+//     ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) ||
+//     isset($_SERVER['HTTP_X_FORWARDED_PROTO']) &&
+//     $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+//     $protocol = 'http://';
+// }
+// else {
+//     $protocol = 'http://';
+// }
+// if(isset($_SERVER['HTTP_HOST']) &&  $_SERVER['HTTP_HOST']== "localhost")
+// {
+//     $ending = '/photoGalery/';
+// }else{
+//     $ending = '/photoGalery/';
+// }
+// if(isset($_SERVER['HTTP_HOST'])){
+ //$config['base_url'] = $protocol.$_SERVER['HTTP_HOST'].$ending;
+// }
+
+  $config['base_url'] = 'http://localhost/photoGalery/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +54,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
