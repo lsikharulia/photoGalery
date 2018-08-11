@@ -18,11 +18,10 @@ class Index extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function main()
 	{
-		//$this->load->view('includes/header');
-		//$this->load->view('index');
-		//$this->load->view('includes/footer');
-		var_dump(1);
+		$this->load->view('includes/header');
+		$this->load->view('index');
+		$this->load->view('includes/footer');
 	}
 }
