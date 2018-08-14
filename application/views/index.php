@@ -8,7 +8,7 @@
                     <div class="search-content">
                         <form action="#" method="get">
                             <input type="search" name="search" id="search" placeholder="Type your keyword...">
-                            <button type="submit"><img src="http://localhost/photoGalery/src/img/core-img/search.png" alt=""></button>
+                            <button type="submit"><img src="<?=base_url();?>src/img/core-img/search.png" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.html"><img src="http://localhost/photoGalery/src/img/core-img/camera.png" alt=""></a>
+                <a href="index.html"><img src="<?=base_url();?>src/img/core-img/camera.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -40,7 +40,7 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="http://localhost/photoGalery/src/img/core-img/camera.png" alt=""></a>
+                <a href="index.html"><img src="<?=base_url();?>src/img/core-img/camera.png" alt=""></a>
             </div>
             <!-- Amado Nav -->
             <nav class="amado-nav">
@@ -59,9 +59,9 @@
             </div>
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="cart.html" class="cart-nav"><img src="http://localhost/photoGalery/src/img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
-                <a href="#" class="fav-nav"><img src="http://localhost/photoGalery/src/img/core-img/favorites.png" alt=""> Favourite</a>
-                <a href="#" class="search-nav"><img src="http://localhost/photoGalery/src/img/core-img/search.png" alt=""> Search</a>
+                <a href="cart.html" class="cart-nav"><img src="<?=base_url();?>src/img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
+                <a href="#" class="fav-nav"><img src="<?=base_url();?>src/img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="<?=base_url();?>src/img/core-img/search.png" alt=""> Search</a>
             </div>
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
@@ -80,7 +80,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/1.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/1.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -93,7 +93,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/2.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/2.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -106,7 +106,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/3.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/3.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -119,7 +119,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/4.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/4.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -132,7 +132,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/5.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/5.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -145,7 +145,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/6.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/6.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -158,7 +158,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/7.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/7.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -171,7 +171,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/8.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/8.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -184,7 +184,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="http://localhost/photoGalery/src/img/bg-img/9.jpg" alt="">
+                        <img src="<?=base_url();?>src/img/bg-img/9.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
